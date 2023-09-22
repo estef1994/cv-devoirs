@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Raleway:ital@1&family=Roboto:wght@400;700&display=swap');
+
+
+
+body{
+    background-color: #782221;
+
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+
+.flexbox ul{
+    display: flex;
+    justify-content: space-between;
+    background-color: #2c1d27;
+    margin-top: 20px;
+    padding: 10px;
+    
+    
+}
+
+.flexbox li{
+    list-style: none;
+    color: white
+    
+}
+main{
+    display: flex;
+}
+#flexbox div{
+    flex-direction: column;
+    =
+}
+#bloc_2{
+background-color: white;
+}
