@@ -3,16 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV</title><link rel="stylesheet" href="../DEVOIR CV/assets cv/cv.css">
+    <title>CV</title>
+    <link rel="stylesheet" href="../DEVOIR CV/assets cv/cv.css">
 
 </head>
-<body>
+<body id="body_item">
+    <img src="./images/photo cv.jpg" alt="profile photo" class="mon_img">
     <h1>OLOMO MAYE Estefano</h1>
     <h2>Developpeur web junior </h2>
     <header id="contacts">
     <address class="flexbox">
         <ul>
-        <li><a href="https://www.google.com/maps/search/2+rue+george+bizet+34070+montpellier/@43.5930152,3.8055626,13z/data=!3m1!4b1?entry=ttu"  target="_blank"></a>2 rue George Bizet 34070</li>
+        <li><a href="https://www.google.com/maps/place/21+Rue+Jean+Vachet,+34000+Montpellier/@43.5931005,3.8801478,17z/data=!3m1!4b1!4m6!3m5!1s0x12b6afbf034ebd53:0x4c2fa0c035f16ad3!8m2!3d43.5930966!4d3.8827227!16s%2Fg%2F11c5jlb9gr?entry=ttu"  target="_blank">21 rue Jean Vachet Montpellier 34070</a></li>
         <li><a href="mailto:15estefano@gmail.com">15estefano@gmail.com</a></li>
         <li><a href="tel:0766379383">0766379383</a></li>
     </ul>
@@ -23,11 +25,11 @@
         <div id="bloc_1">
         <section>
             <h3>A propos</h3>
-            <p>
-                « Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. <br>
+            <p id="phrase">
+                 Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. <br>
                  Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. <br> 
                  Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br> 
-                 Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. »
+                 Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
             </p>
         </section>
         <section>
@@ -50,7 +52,7 @@
     </div>
     <div id="bloc_2">
         <section>
-            <h3>Experiences professioneles</h3>
+            <h3 class="class1">Experiences professioneles</h3>
             <article>
                 <h4>Agent Explotation et Entretien - Crital net</h4>
                 <p>Du 2020 au 2023</p>
@@ -95,7 +97,7 @@
             </article>
         </section>
         <section>
-            <h3>Diplômes/Formations</h3>
+            <h3 class="class2">Diplômes/Formations</h3>
             <article>
                 <h4>Master I </h4>  
            <p>Du 2017 au 2018</p>
@@ -107,7 +109,7 @@
             </article>
         </section>
         <section>
-            <h3>Compétences</h3>
+            <h3 class="class3">Compétences</h3>
             <ul>
                 <li>Html 5- Débutant</li>
                 <li>CSS - Débutant</li>
@@ -116,11 +118,14 @@
             </ul>
         </section>
     </div>
-        <aside>
-            <!-- logos -->
+        <aside id="box_logos">
+       
         </aside>
     </main>
-    <footer>
+    <footer class="flexbox">
+        <img src="./images/linkedin (2).png" alt="linkedin logo">
+        <img src="./images/twitter.png" alt="logo twitter">
+        <img src="./images/signe-github.png" alt="github logo">
         <p>
             <small>Derniere mise à jour le <time datetime="2023-09-20">20-09-2023</time></small>
         </p>
