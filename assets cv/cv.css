@@ -28,9 +28,10 @@ body{
     border-radius: 50%;
     object-fit: cover;
     box-shadow: 0 0 30px whitesmoke;
+    cursor: zoom-in;
+   
     
 }
-
 
 
 h1{
@@ -51,7 +52,19 @@ h2{
     background-color: #2c1d27;
     margin-top: 20px;
     padding: 30px;
+    color: white;
+    cursor: pointer
     
+}
+
+.flexbox ul a{
+    text-decoration-line: none;
+    color: white;  
+    
+}
+
+.flexbox ul a:hover{
+    text-decoration-line: underline;
 }
 
 .flexbox li{
@@ -68,9 +81,9 @@ main{
 }
 
 h3{
-    background-color: antiquewhite;
+    background-color:#dbc2a4;
     padding-left: 20px;
-    color: black;
+    color: #2c1d27;
     font-family: "Oswald", sans-serif;
 }
 
@@ -97,18 +110,18 @@ margin-left: 100px;
 
 
 .class1{
-    border-left: 5px solid brown;
+    border-left: 5px solid #782221;
     margin-right: 20px;
 }
 
 
 .class2{
-    border-left: 5px solid brown ;
+    border-left: 5px solid #782221;
     margin-right: 20px;
 }
 
 .class3{
-    border-left: 5px solid brown;
+    border-left: 5px solid #782221;
     margin-right: 20px;
     
 }
@@ -117,7 +130,7 @@ footer{
     text-align: center;
     padding: 10px;
     justify-content: space-between;
-    
+    color: white;
     
 }
 
